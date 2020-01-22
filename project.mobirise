@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "transition eco landing",
+    "name": "isolation 1 euro pour tous",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -36,19 +36,19 @@
     "uniqCompNum": 22,
     "versionPublish": "4.11.6",
     "favicon": "@PROJECT_PATH@/assets/images/logo-iso-128x128.png",
-    "noImageResize": "",
+    "noImageResize": true,
     "google-analytics": "",
     "cookiesAlert": {
-      "customDialogSelector": false,
+      "customDialogSelector": true,
       "colorText": "#424a4d",
       "colorBg": "#eaeff1",
       "colorButton": "",
       "colorLink": "#424a4d",
       "underlineLink": true,
-      "opacity": "99",
-      "opacityOverlay": "80",
-      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
-      "textButton": "Agree"
+      "opacity": "74",
+      "opacityOverlay": "74",
+      "text": "Nous utilisons des cookies pour vous offrir la meilleure expérience. Lisez notre <a href='privacy.html'> politique relative aux cookies </a>.",
+      "textButton": "D'accord"
     },
     "path": "@PROJECT_PATH@",
     "siteFonts": [
@@ -67,17 +67,21 @@
     "gdpr": {
       "colorText": "#a7a7a7",
       "colorLink": "#149dcc",
-      "underlineLink": false,
-      "text": "By continiung you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
+      "underlineLink": true,
+      "text": "En continuant, vous acceptez nos <a href='terms.html'> Conditions d'utilisation </a> et la <a href='policy.html'> Politique de confidentialité </a>."
     },
-    "siteUrl": "undefined"
+    "siteUrl": "https://isolation-francaise.fr",
+    "robotsSwitcher": false,
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
         "title": "Transition Energetique: Mieux et moins cher, confortable & économique",
-        "meta_descr": "ENGAGEMENT NATIONAL SOLIDARITÉ ÉNERGÉTIQUE\n\n    Travaux réalisés par des spécialistes \n    Dispositif reconnu garant de l’environnement (RGE)\n    Réduisez jusqu’à 30% de votre bilan d’énergietique       Programme validé par l’état  \n\n",
+        "meta_descr": "ENGAGEMENT NATIONAL SOLIDARITÉ ÉNERGÉTIQUE\n    Travaux réalisés par des spécialistes \n    Dispositif reconnu garant de l’environnement (RGE)\n    Réduisez jusqu’à 30% de votre bilan d’énergietique       Programme validé par l’état  \n\n",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -100,11 +104,11 @@
           "_name": "header1",
           "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/815-851x315.png\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#7f1933\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#879a9f\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">&nbsp;LA TRANSITION ENERGETIQUE\n<div>&nbsp;POUR 1 EURO \n</div><div><br></div></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"><b>Verifiez votre éligibilité en validant \n</b><div><b>le formulaire ci-contre&nbsp;</b></div></h3>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">EN FRANCE,\nPLUS D' 1 FOYER SUR 2 \n<br>EST CONCERNE . ET VOUS? \n<br>\n<br></p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-secondary\" href=\"https://isolation-francaise.fr/formulaire/\" data-app-placeholder=\"Type Text\">\n                        <span class=\"mbr-iconfont mbri-file\"></span>EN SAVOIR PLUS</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "rOjtZi1ELX",
+          "_anchor": "header1-l",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header1-l"
+          "_params": {}
         },
         {
           "_styles": {
